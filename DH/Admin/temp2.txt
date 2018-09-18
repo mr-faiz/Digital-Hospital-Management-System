@@ -1,0 +1,23 @@
+<?php 
+																$sql1="SELECT DISTINCT AvailableDay FROM `tbl_schedule` where DoctorId=".$row['DoctorId'];
+																echo $sql1;
+																$result1=$con->query($sql1);
+																$no_result=$result1->num_rows;
+																if($no_result <= 0)
+																{
+																	for($k=1;$k<=7;$k++){
+																		?>
+																		<td><span class="text-danger"><i class="fa fa-times"></i></span></td>
+																		<?php
+																	}
+																}
+																else
+																{
+																	$row1[]=$result1->fetch_assoc();
+																	echo "<pre>";
+																	print_r($row1);
+																	echo "</pre>";
+																	//end while
+																}
+															?>
+																

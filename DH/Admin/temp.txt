@@ -1,0 +1,43 @@
+if($row1['AvailableDay']=='Monday')
+																	{
+															?>
+																		<td><span class="text-success"><i class="fa fa-check"></i></span></td>
+															<?php	
+																	}
+																	 if($row1['AvailableDay']=='Tuesday')
+																	{
+															?>
+																		<td><span class="text-success"><i class="fa fa-check"></i></span></td>
+															<?php	
+																	}
+																	 if($row1['AvailableDay']=='Wednesday')
+																	{
+															?>
+																		<td><span class="text-success"><i class="fa fa-check"></i></span></td>
+															<?php	
+																	}
+																	 if($row1['AvailableDay']=='Thursday')
+																	{
+															?>
+																		<td><span class="text-success"><i class="fa fa-check"></i></span></td>
+															<?php	
+																	}
+																	 if($row1['AvailableDay']=='Friday')
+																	{
+															?>
+																		<td><span class="text-success"><i class="fa fa-check"></i></span></td>
+															<?php	
+																	}
+																	 if($row1['AvailableDay']=='Saturday')
+																	{
+															?>
+																		<td><span class="text-success"><i class="fa fa-check"></i></span></td>
+															<?php	
+																	}
+																	else
+																	{
+															?>
+																		<td><span class="text-danger"><i class="fa fa-times"></i></span></td>
+															<?php	
+																	}
+																}
